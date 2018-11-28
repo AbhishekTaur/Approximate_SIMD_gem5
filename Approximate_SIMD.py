@@ -11,7 +11,7 @@ parser.add_argument("-b", "--bits", dest="bits",
                     help="Number of bits you want to approximate")
 
 parser.add_argument("-p", "--path", dest="path",
-                    help="Path of the mediops file", default="./src/arch/x86/isa/microops",
+                    help="Path of the mediaops file", default="./src/arch/x86/isa/microops",
                     required=False)
 
 options = parser.parse_args()
